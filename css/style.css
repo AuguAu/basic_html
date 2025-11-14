@@ -1,43 +1,57 @@
 header {
     color: white;
-    background-color: #0400ff;
+    background-color: #fe6224;
     padding: 5px;
     text-align: center;
 }
 
 body {
   background-color: #bababa;
-}
-
-footer{
-    color: white;
-    background-color: #0400ff;
-    padding: 5px;
-    text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
 .content{
-    padding-left: 5px;
     padding-top: 10px;
+    margin: auto;
 }
 
 .biography{
     color: rgb(0, 0, 0);
     background-color: #ffffff;
-    padding: 5px;
+    padding: 15px;
+    margin-top: 5px;
+    border-radius: 5px;
+    box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
 }
 
 .achievements{
     color: rgb(0, 0, 0);
     background-color: #ffffff;
-    padding: 5px;
-    margin-top: 10px;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.2);
 }
 
 .linkto{
     color: rgb(0, 0, 0);
     background-color: #ffffff;
-    padding: 5px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    padding: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+footer{
+    color: white;
+    background-color: #fe6224;
+    padding: 15px;
+    text-align: center;
+}
+
+img {
+  border: 10px solid #fe6224;
 }
